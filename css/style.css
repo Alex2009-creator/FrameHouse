@@ -1,0 +1,188 @@
+.grid {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 10px;
+    grid-template-rows: 480px 150px 300px 600px auto auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.center_content {
+    text-align: center;
+    padding: 10px;
+}
+
+.right_content {
+    text-align: right;
+    padding: 10px;
+}
+
+.left_content {
+    text-align: left;
+    padding: 10px;
+}
+
+header {
+    grid-column: 1/4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    grid-row: 1;
+    background: url('../images/header.jpg');
+}
+
+header div {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.heading {
+    grid-column: 1/4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    grid-column: 1/4;
+}
+
+.why_we {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, minmax(220px, 260px));
+    column-gap: 10px;
+}
+
+.why_we div {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.portfolio {
+    grid-template-columns: repeat(3, minmax(220px, 260px));
+    background-color: darkgray;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 10px;
+}
+
+.portfolio img {
+    max-width: 260px;
+}
+
+.what_offer {
+    grid-template-columns: repeat(3, minmax(220px, 260px));
+    display: grid;
+
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.what_offer div {
+    width: 260px;
+    height: auto;
+}
+
+.img {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_r {
+    text-align: right;
+}
+
+.bg_white {
+    background-color: white;
+    padding: 10px;
+}
+
+footer {
+    grid-column: 1/4;
+    height: 480px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    background: url('../images/header.jpg');
+    grid-auto-flow: row;
+}
+
+.form {
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    width: 800px;
+    height: 250px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.input {
+    width: 210px;
+    height: 100px;
+    grid-auto-flow: row;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 200px;
+}
+
+#textarea {
+    align-self: center;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: goldenrod;
+    font-size: 1.3rem;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#head_h1 {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: end;
+}
+
+#btn {
+    display: flex;
+    flex-direction: column;
+    ;
+    height: 200px;
+    justify-content: start;
+
+
+}
